@@ -1,33 +1,33 @@
 @font-face {
     font-family: "JetBrains Sans";
-    src: url("fonts/JetBrainsSans-Regular.woff2");
+    src: url("/fonts/JetBrainsSans-Regular.woff2");
 }
 
 @font-face {
     font-family: "JetBrains Mono";
-    src: url("fonts/JetBrainsMono-Regular.woff2");
+    src: url("/fonts/JetBrainsMono-Regular.woff2");
 }
 
-:root {
-    font-family: "JetBrains Sans", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    font-weight: 300;
-    color: rgba(255, 255, 255, 0.87);
-    background-color: #000000;
-    text-align: center;
-}
+/*:root {*/
+/*    font-family: "JetBrains Sans", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;*/
+/*    font-weight: 300;*/
+/*    color: rgba(255, 255, 255, 0.87);*/
+/*    background-color: #000000;*/
+/*    text-align: center;*/
+/*}*/
 
 body {
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-width: 320px;
-    min-height: 100vh;
-    align-items: center;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: space-between;*/
+    /*min-width: 320px;*/
+    /*min-height: 100vh;*/
+    /*align-items: center;*/
 
-    background-image: url("background.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
+    /*background-image: url("/background.svg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: contain;*/
 }
 
 h1 {
@@ -185,3 +185,5 @@ button:hover {
         margin-bottom: 15px;
     }
 }
+
+
