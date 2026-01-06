@@ -12,14 +12,14 @@ const HomePage = () => {
                 <div className={styles.searchBar}>
                     <i className={`fi fi-rr-search ${styles.searchIcon}`} aria-hidden></i>
                     <input
-                        className={styles.searchInput}
+                        // className={styles.searchInput}
                         placeholder={"Tìm kiếm cửa hàng/món ăn"}
                         // readOnly={!active}
                         // value={value}
-                        onChange={(e) => (e.target.value)}
+                        // onChange={(e) => (e.target.value)}
                         // onKeyDown={active ? (e) => { if (e.key === "Enter") onSubmit?.(); } : undefined}
                         // autoFocus={active ? autoFocus : false}
-                        aria-label="Ô tìm kiếm"
+                        // aria-label="Ô tìm kiếm"
                     />
                 </div>
             </div>
